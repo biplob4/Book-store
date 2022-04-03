@@ -1,0 +1,49 @@
+[
+    {
+        "id": 4,
+        "username": "Nastaran",
+        "email": "nasi@gmail.com",
+        "password": "Ok487526",
+        "avatar": "https://avatars.dicebear.com/api/female/nastaran.svg",
+        "comment": "Fun to read as beautiful as it looks"
+    },
+    {
+        "id": 5,
+        "username": "Sobhan",
+        "email": "sobhan@yahoo.com",
+        "avatar": "https://avatars.dicebear.com/api/male/sobhan.svg",
+        "comment": "Many beautiful books where such beautiful books are not found"
+    },
+    {
+        "id": 6,
+        "username": "Nasim",
+        "email": "nasim@gmail.com",
+        "password": "Pl487596",
+        "avatar": "https://avatars.dicebear.com/api/female/nasim.svg",
+        "comment": "Really enjoyed reading a wonderful book"
+    },
+    {
+        "id": 1,
+        "username": "Morad",
+        "email": "morad@april.biz",
+        "password": "Ab485652",
+        "avatar": "https://avatars.dicebear.com/api/male/mamad.svg",
+        "comment": "This is beautiful book"
+    },
+    {
+        "id": 2,
+        "username": "Farshad",
+        "email": "farshad@gmail.com",
+        "password": "Gr365481",
+        "avatar": "https://avatars.dicebear.com/api/male/farshad.svg",
+        "comment": "It is a pleasure to read the book"
+    },
+    {
+        "id": 3,
+        "username": "Leila",
+        "email": "leila@april.biz",
+        "password": "Ti487596",
+        "avatar": "https://avatars.dicebear.com/api/female/leila.svg",
+        "comment": "There is so much to learn from the book"
+    }
+]

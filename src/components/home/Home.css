@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+.book{
+    margin-top: 70px;
+}
+.book p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #7c7b7b;
+    margin-bottom: 20px;
+}
+.book h1{
+    color: tomato;
+    margin-bottom: 30px;
+}
+.book a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 9px 40px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.5;
+}
+.book span{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: tomato;
+    left: 0;
+    top: 0;
+    border-radius:5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.book a:hover{
+    color: white;
+}
+.book a:hover span{
+    width: 100%;
+}
+.book img{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
