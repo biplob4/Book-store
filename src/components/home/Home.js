@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import UseReview from '../../hook/UseReview';
 import book from '../img/book.png';
 import ReviewTow from '../review/ReviewTow';
@@ -7,6 +7,10 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = UseReview([]);
+    let navigait = useNavigate();
+    const handeler = () => {
+        navigait(`/reviews`)
+    }
     return (
         <div className='book container-xl '>
             <Row xs={1} md={2} className="m-auto">
@@ -26,7 +30,7 @@ const Home = () => {
                     reviews.slice(0, 3).map(review => <ReviewTow key={review.id} reviews={review}></ReviewTow>)
                 }
             </Row>
-            <Link to="/reviews" className='btn mt-5 btn2' ><span></span> See-All</Link>
+            <a onClick={handeler} className='btn mt-5 btn2' ><span></span> See-All</a>
         </div>
     );
 };
