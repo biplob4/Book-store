@@ -3,15 +3,15 @@ body{
     margin: auto;
 }
 .book{
-    margin-top: 70px;
+    margin: 70px 0;
 }
-.book p{
+.title p{
     font-size: 18px;
     font-family: sans-serif;
     color: #7c7b7b;
     margin-bottom: 20px;
 }
-.book h1{
+.title h1{
     color: tomato;
     margin-bottom: 30px;
 }
@@ -25,7 +25,7 @@ body{
     position: relative;
     transition: 0.5;
 }
-.book span{
+.btn span{
     content: '';
     position: absolute;
     width: 0%;
@@ -47,4 +47,13 @@ body{
     width: 100%;
     overflow: hidden;
     margin-top: 40px;
+}
+.review-container{
+    margin-top: 70px;
+}
+.btn{
+    position: relative;
+}
+.btn2{
+    margin-left: 45%;
 }
