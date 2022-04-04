@@ -1,9 +1,7 @@
 
-
-               Markup : * Bullet list
-              ..* Nested bullet
-                  ..* Sub-nested bullet etc
-          ..* Bullet list item 2
+             - George Washington
+             - John Adams
+             - Thomas Jefferson
 
 
 # Getting Started with Create React App
