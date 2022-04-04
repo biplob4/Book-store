@@ -1,10 +1,14 @@
+# My great bookstore website
+- Find the book of your choice
+- Here you can find many good books
+- It's just a bookstore
+- If reading books increases people's willpower, then start reading books now
 
-- George Washington
-- John Adams
-- Thomas Jefferson
+### that is a shortcut of this website
+Click here and go to my Website [https://online-book-store-295bc4.netlify.app/dashboard](https://online-book-store-295bc4.netlify.app/dashboard). 
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
