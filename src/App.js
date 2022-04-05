@@ -4,9 +4,10 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home'
 import Reviews from './components/reviews/Reviews';
 import Dashboard from './components/dashbosrd/Dashboard';
-import Blogs from './components/dashbosrd/blogs/Blogs';
-import About from './components/about/About';
 import ForOFor from './components/forOFor/ForOFor';
+import About from './components/about/About'
+import Blogs from './components/blogs/Blogs';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="*" element={<ForOFor />}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }
